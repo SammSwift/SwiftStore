@@ -1,0 +1,4 @@
+.active-link {
+  border-bottom: 2px solid black; /* Adjust the color and style as needed */
+  transition: border-bottom 0.3s ease; /* Add a transition effect with a duration of 0.3 seconds and ease timing function */
+}
