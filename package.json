@@ -2,10 +2,10 @@
   "name": "generated_backend",
   "version": "1.0.0",
   "description": "backend is the ultimate backend solution",
-  "main": "src/server.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node backend/server.js",
+    "start": "node backend/src/server.js",
     "server": "node backend/src/server.js",
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
